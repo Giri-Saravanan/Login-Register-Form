@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <title>Login | Register</title>
+</head>
+<body>
+
+    <div class="floating-bubbles"></div>
+    
+    <div class="container">
+        <div class="form-box login">
+            <h2 class="pulse">login</h2>
+
+            <form>
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Username</label>
+                    <span class="icon"><i class='bxr  bx-user-circle'></i></span>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Password</label>
+                    <span class="icon"><i class='bxr  bx-lock'></i></span>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember Me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <button type="submit">Login</button>
+
+                <div class="auth-link">
+                    <p>Don't have an account?<a href="#" id="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2 class="pulse">Registration</h2>
+
+            <form>
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Username</label>
+                    <span class="icon"><i class='bxr  bx-user-circle'></i></span>
+                </div>
+
+                <div class="input-box">
+                    <input type="email" required>
+                    <label>Email</label>
+                    <span class="icon"><i class='bxr  bx-envelope'></i></i></span>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Password</label>
+                    <span class="icon"><i class='bxr  bx-lock'></i></span>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Confirm Password</label>
+                    <span class="icon"><i class='bxr  bx-lock'></i></span>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember Me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <button type="submit">Login</button>
+
+                <div class="auth-link">
+                    <p>Already have an account?<a href="#" id="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
